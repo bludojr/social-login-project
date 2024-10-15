@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'RedHatText-Regular';
+    src: url(fonts/static/RedHatText-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RedHatText-SemiBold';
+    src: url(fonts/static/RedHatText-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'RedHatText-Bold';
+    src: url(fonts/static/RedHatText-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'RedHatText-VariableFont_wght';
+    src: url(fonts\RedHatText-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'RedHatText-Italic-VariableFont_wght';
+    src: url(fonts\RedHatText-Italic-VariableFont_wght.ttf);
+}
+
+
+
+body{
+    background-color: #fcf8f5;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family:'RedHatText-Bold';
+    margin-left: 9.7%;
+}
+
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 62.4%;
+    margin-left: 9%;
+}
+
+.card {
+    border: 0px solid #000;
+    border-radius: 0%;
+    width: 28%;
+    margin: 1%;
+}
+
+.recipeDesktop {
+    display: block;
+    width: 100%;
+    border-radius: 3%;
+}
+
+
+.recipeMoblie {
+    display: none;
+}
+
+.recipeTablet {
+    display: none;
+}
+
+.cartContainer {
+    position: relative;
+    display: flex;
+    border: 1px solid #000;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 63.5%;
+    height: 11%;
+    justify-content: center;
+    top: -5.8%;
+    margin: auto;   
+    background-color: #fff;
+}
+
+.cartContainer img {
+    width: 20%;
+    height: 40%;
+    margin: auto;
+    padding-left: 5%;
+}
+
+.cartContainer p {
+    font-family: 'RedHatText-SemiBold';
+    font-size: 1.2rem;
+    color: #000;
+    margin: auto;
+    padding: 0;
+    margin: auto;
+    padding-right: 15%;
+}
+
+.addToCart {
+    margin:auto;
+}
+
+.cartContainer {
+    cursor: default;
+}
+
+.cartContainer:hover {
+    cursor: pointer;
+}
+
+.cartContainer:active {
+    transform: scale(1.05);
+    animation: 10s ease-in-out;
+}
+
+#menuContainer {
+    position: absolute;
+    right: 6%;
+    top: 1%;
+    margin-top: 15%;
+    width: 22%;
+    max-height: max-content;
+    justify-content: center;
+    display: grid;
+    background-color: #fff;
+    font-family: 'RedHatText-SemiBold';
+    border-radius: 2rem ;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+}
+
+#menuContainer h1{
+    font-family:'RedHatText-Bold';
+    margin-left: 6%;
+}
+
+#menuContainer h2{
+    font-family: 'RedHatText-Bold' ;    
+}
+
+
+#menuContainer li{
+    display: grid;
+    font-family: 'RedHatText-SemiBold';
+}
+ 
+ol {
+    list-style-type: georgian;
+    color: #000;
+}
+
+
+
